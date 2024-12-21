@@ -1,0 +1,16 @@
+.the-main {
+    font-family: 'Red Hat Text';
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.desserts-all {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.cart-cont {
+    width: 15%;
+}
