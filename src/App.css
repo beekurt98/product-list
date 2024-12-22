@@ -1,16 +1,105 @@
+body {
+    margin: 0;
+    background-color: #FCF8F6;
+}
+
+:root {
+    --rose: #87635A;
+    --red: #C73B0F;
+}
+
+#root {
+    margin: 50px;
+}
+
 .the-main {
     font-family: 'Red Hat Text';
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    gap: 20px;
 }
+
+/* Desserts All Container */
 
 .desserts-all {
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
+    gap: 25px;
+    justify-content: space-between;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+/* Dessert Card */
+.dessert-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.dessert-card p {
+    margin: 3px;
+    margin-left: 0;
+
+}
+
+.dessert-cat {
+    color: var(--rose);
+}
+
+.dessert-name {
+    font-weight: bold;
+}
+
+.price {
+    color: var(--red);
+    font-weight: bold;
+}
+
+.add-btn {
+    width: 60%;
+    align-self: center;
+    background-color: white;
+    border: solid 1.5px var(--rose);
+    border-radius: 999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px ;
+    padding: 5px;
+}
+
+/* Right Side */
+.right-side {
+    width: 35%;
 }
 
 .cart-cont {
-    width: 15%;
+    width: 250px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.cart-cont img {
+    width: 128px;
+}
+
+.cart-cont p {
+    color: var(--rose);
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    align-self: flex-start;
+    margin: 20px;
+    color: var(--red);
+    font-weight: 1700;
 }
