@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import { product } from './data.jsx'
 
+
 function App() {
   
   return (
@@ -40,8 +41,10 @@ function DessertCard({ name, category, price }) {
 
   return(
     <>
-      <img src={`./src/images/${name}.png`} />
-      <Button />
+      <div className='img-btn-cont'>
+        <img src={`./src/images/${name}.png`} />
+        <Button />
+      </div>
       <p className='dessert-cat'>{category}</p>
       <p className='dessert-name'>{name}</p>
       <p className='price'>${`${price}`.includes(".") ? `${price}0` : `${price}.00`}</p>
