@@ -69,6 +69,7 @@ h1 {
     flex-direction: column;
     position: relative;
     margin-bottom: 20px;
+    width: 250px;
 }
 
 .add-btn {
@@ -91,18 +92,19 @@ h1 {
 /* Right Side */
 .right-side {
     min-width: 400px;
-    max-width: 75%;
+    max-width: 100%;
     flex: 1;
 }
 
 .cart-cont {
-    width: 100%;
+    width: 85%;
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 15px;
+    margin: auto;
 }
 
 .cart-cont img {
